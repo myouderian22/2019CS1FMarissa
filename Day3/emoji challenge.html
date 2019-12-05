@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emoji</title>
+        <style>
+            body{
+        
+            }
+            #face{
+                width:200px;
+                height:200px;
+                background-color:#FFF000;
+                border-radius:100px;
+                position:relative;
+            }
+            .eye{
+               width:35px;
+               height:35px;
+               background-color:#000;
+               border-radius:100px;
+               position:absolute;
+               top:45px
+            }
+            .pupil{
+               width:15px;
+               height:15px;
+               background-color:#fff;
+               border-radius:100px;
+               position:absolute;
+               top:8px;
+               left:8px
+            }
+            #leftEye{
+               left:45px;  
+            }
+            #rightEye{
+               right:45px;
+            }
+            #mouth{
+                background: url('emojiMouth.png') no-repeat center center;
+                background-size:contain;
+                height:30px;
+                width:100px;
+                position:absolute;
+                bottom:40px;
+                left:50px;
+            }
+            #tongue{
+                background: url('emojiTounge.png') no-repeat center center;
+                background-size:contain;
+                position:absolute;
+                height:30px;
+                width:30px;
+                left:35px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='face'>
+            <div id='leftEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='rightEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='mouth'>
+                <div id='tongue'></div>
+            </div>
+        </div>
+    </body>
+</html>
