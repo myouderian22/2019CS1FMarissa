@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+body{
+    background-color: blue;
+}
+#outer{ 
+    height: 800px;
+    width: 550px;
+    border: 10px solid #fff;
+    background-color: lightblue; 
+}
+
+.button{
+    height: 50px;
+    width: 100px;
+    border: 5px solid #fff;  
+}
+
+.plus{
+    margin-top: 10px;
+    margin-left: 30px;   
+}
+
+.minus{
+    margin-top: 10px;  
+    margin-left: 155px;
+}
+
+.multiply{
+    margin-top: 10px;
+    margin-left: 280px;
+}
+
+.divide{
+    margin-top: 10px;
+    margin-left: 405px;
+}
+
+.side{
+    display: inline-block;
+    position: absolute;
+}
+.fonts{
+    background-color: darkblue;
+    font-size: 40px;
+    color: white; 
+    text-align:center;
+}
+
+.number{
+    height: 100px;
+    width: 100px;
+    border: 10px solid #fff;
+    background-color: lightblue; 
+    background-color: darkblue;
+    font-size: 40px;
+    color: white; 
+    text-align:center;
+}
+
+.one{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.two{
+    margin-top: 90px;
+    margin-left: 210px;
+}
+
+.three{
+    margin-top: 90px;
+    margin-left: 380px;
+}
+
+.four{
+    margin-top: 235px;
+    margin-left: 40px;
+}
+
+.five{
+    margin-top: 235px;
+    margin-left: 210px;
+}
+
+.six{
+    margin-top: 235px;
+    margin-left: 380px;
+}
+
+.seven{
+    margin-top: 380px;
+    margin-left: 40px;
+}
+
+.eight{
+    margin-top: 380px;
+    margin-left: 210px;
+}
+.nine{
+    margin-top: 380px;
+    margin-left: 380px;
+}
+.zero{
+    margin-top: 525px;
+    margin-left: 210px;
+}
+.equals{
+    height: 50px;
+    width: 75px;
+    border: 10px solid #fff;
+    background-color: lightblue; 
+    background-color: darkblue;
+    font-size: 40px;
+    color: white; 
+    position: absolute;
+    margin-top: 540px; 
+    margin-left: 390px;
+    text-align: center;
+}
+.box{
+    width: 550px;
+    height: 125px;
+    background-color: lightblue;
+    border-bottom: solid white;
+    
+}
+.think{
+    
+}
