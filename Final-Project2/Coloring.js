@@ -33,11 +33,11 @@ var arrayExample =
     [3,3,8,8,8,8,8,3,3,3,3,3,3,3,3,3,4,4,3,3,3,3,3,3,4,4,3,3,3,3,3,3,3],
     [3,8,8,8,8,8,8,8,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3],
     [8,8,8,8,8,8,8,8,8,3,3,3,3,3,4,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3],
+    [8,8,8,8,8,8,8,8,8,3,3,3,3,3,4,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3],
     ]
    ;
 
 console.log(arrayExample[1][3]);
-
 
 init();
 
@@ -47,5 +47,13 @@ function init(){
             $('.box').append("<div class='pixel'>" + arrayExample[c][r] + "</div>");
         }
 }
+
+
+$('.pixel').click(
+    function(){
+        var color=$(this).css("background-color");
+        $('body').css("background-color",color);
+    }
+);
 
 /* 1=lightblue, 2=yellow. 3=lightgreen, 4=darkgreen, 5=blue, 6=purple, 7=pink, 8=brown */
