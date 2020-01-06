@@ -48,12 +48,11 @@ function init(){
         }
 }
 
+$("color1").click(function(){
+    color = 'lightblue';
+});
 
-$('.pixel').click(
-    function(){
-        var color=$(this).css("background-color");
-        $('body').css("background-color",color);
-    }
-);
+
+
 
 /* 1=lightblue, 2=yellow. 3=lightgreen, 4=darkgreen, 5=blue, 6=purple, 7=pink, 8=brown */
