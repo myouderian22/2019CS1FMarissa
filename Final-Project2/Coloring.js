@@ -37,7 +37,7 @@ var arrayExample =
     ]
    ;
 
-console.log(arrayExample[1][3]);
+//console.log(arrayExample[1][3]);//
 
 init();
 
@@ -49,20 +49,41 @@ function init(){
 }
 
 var clickedColor='white';
+var drawingMode=false;
 
 $(".circle").click(
     function(){
         clickedColor=$(this).css("background-color");
-        console.log("hi");
+        //console.log("hi");//
     }
 )
 
-$(".pixel").click(
+$(".pixel").hover(
     function(){
-        $(this).css("background-color", clickedColor);
-        console.log("test");
+        if (drawingMode==true) {
+            $(this).css("background-color", clickedColor);
+        }
+        
+        //console.log("test");//
     }
 )
+
+$(document).keydown(function(e) {
+    console.log(e.which)
+    switch(e.which) {
+        case 32: // spacebar
+            if (drawingMode==false) {
+                drawingMode=true;
+            }
+            else {
+                drawingMode=false;
+            }
+        break;
+        default: return; // exit this handler for other keys
+    }
+    
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
 
 
 /* 1=lightblue, 2=yellow. 3=lightgreen, 4=darkgreen, 5=blue, 6=purple, 7=pink, 8=brown */
