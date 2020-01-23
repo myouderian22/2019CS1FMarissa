@@ -6,16 +6,11 @@ function reverse(message) {
     return reverseString;
 }
 
-console.log(reverse("hello"));
-console.log(reverse("good"));
-console.log(reverse("racecar"));
-
-function reverse(message) {
-    var reverseString = "";
-    if (message = reverseString) {
-        return reverseString;
-    }
-    else  {
-        return "";
-    }
+function palindrome(message) {
+    var mirror = reverse(message);
+    return mirror == message;
 }
+
+console.log(palindrome("hello"));
+console.log(palindrome("good"));
+console.log(palindrome("racecar"));
