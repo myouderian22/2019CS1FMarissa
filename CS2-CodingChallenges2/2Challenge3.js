@@ -8,8 +8,14 @@ function reverse(message) {
 
 console.log(reverse("hello"));
 console.log(reverse("good"));
+console.log(reverse("racecar"));
 
-
-
-//Given a String, return true if the string is a palindrome, 
-//false otherwise. Make use of your reverse function in the previous challenge.
+function reverse(message) {
+    var reverseString = "";
+    if (message = reverseString) {
+        return reverseString;
+    }
+    else  {
+        return "";
+    }
+}
