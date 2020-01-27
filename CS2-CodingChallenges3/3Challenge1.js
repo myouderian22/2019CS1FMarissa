@@ -1,29 +1,19 @@
+var vowels = "aeiou"
+var currentLetter = "";
+var letters = "";
+
 function noVowels(message) {
-    var currentLetter = message.charAt(i);
-    var vowels = "aeiou"
-}
-
-
-/*
-function noVowels(message) {
-    var vowels = "aeiou";
-    vowels.indexOf("hello")
-    for(var i=vowels.index-1; i>=0; i--){
-        message.charAt(i) -= vowels;
+    for (var i= 0; i < message.length; i++) {
+        currentLetter = message.charAt(i)
+        if (vowels.indexOf(currentLetter) >= 0 ){
+            currentLetter = ""
+        }
+        else{
+            letters += currentLetter;
+        }
     }
-    return vowels;
-}
-console.log(noVowels("hello"));
-
-
-function reverse(message) {
-    var reverseString = "";
-    for(var i=message.length-1; i>=0; i--){
-        reverseString += message.charAt(i);
-    }
-    return reverseString;
+    return letters
 }
 
-console.log(reverse("hello"));
-console.log(reverse("good"));
-*/
+message = "hello, how are you";
+console.log(noVowels(message));
