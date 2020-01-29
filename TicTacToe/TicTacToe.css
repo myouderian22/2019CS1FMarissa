@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.title{
+    font: "Kranky";
+    font-size: 40px;
+    color: #00f;
+}
+
+.box{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black
+}
+
+.pixel{
+    width: 198px;
+    height: 198px;
+    border: 1px solid black;
+    float: left;
+    
+}
