@@ -54,7 +54,6 @@ var drawingMode=false;
 $(".circle").click(
     function(){
         clickedColor=$(this).css("background-color");
-        //console.log("hi");//
     }
 )
 
@@ -63,8 +62,6 @@ $(".pixel").hover(
         if (drawingMode==true) {
             $(this).css("background-color", clickedColor);
         }
-        
-        //console.log("test");//
     }
 )
 

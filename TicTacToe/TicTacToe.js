@@ -16,3 +16,13 @@ function init(){
             $('.box').append("<div class='pixel'>" + arrayExample[c][r] + "</div>");
         }
 }
+
+
+$('.pixel').click(
+    function(){
+        var color= 'blue';
+        console.log(color);
+        $(this).css("background-color",color);
+    }
+);
+
