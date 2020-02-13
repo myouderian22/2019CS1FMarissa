@@ -7,7 +7,7 @@ var arrayExample =
     ]
    ;
 
-
+   
 init();
 
 function init(){
@@ -17,15 +17,15 @@ function init(){
         }
 }
 
-var color1= 'red';
-var color2= 'blue';
-var numClicks= '0';
+var color1 = 'red';
+var color2 = 'blue';
+var numClicks = '0';
 
 
 $('.pixel').click(
     function() {
 
-        var player= numClicks%2;
+        var player = numClicks%2;
 
         var currentPlayer = $(this).attr("player");
         console.log(currentPlayer);
@@ -42,7 +42,18 @@ $('.pixel').click(
             $(this).attr("player",player);
             numClicks++;
        }
-       if()
+       if(hasWon(this))
+        alert("you win");
     }
 );
 
+function hasWon(box){
+    var row = $(box).attr("r") ;
+    var col = $(box).attr("c") ;
+    var player = $(box).attr("player");
+    console.log(row, col, player);
+
+
+
+    return
+}
