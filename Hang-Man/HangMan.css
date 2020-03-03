@@ -101,10 +101,40 @@
     margin-left: 20px;
     margin-top: 20px;
     border: 3px solid black;
-    display: inline-block;
+    position: relative;
     text-align: center;
 }
 
+.letterLine{
+    display: inline-block;
+}
+
+.annoyingLetters{
+    display: ;
+}
+
 .letterMargin{
-        margin-top: 400px;
+    margin-top: 400px;
+}
+
+.moveLetters{
+    margin-top: 380px;
+}
+
+#player1{
+    height: 25px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: solid 3px black;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+#player2{
+    height: 25px;
+    width: 100px;
+    border: solid 3px black;
+    text-align: center;
+    position: relative;
 }
