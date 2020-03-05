@@ -103,22 +103,24 @@
     border: 3px solid black;
     position: relative;
     text-align: center;
+    display: inline-block
 }
 
-.letterLine{
-    display: inline-block;
+.deleteBox{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid black;
+    position: relative;
+    text-align: center;
+    display: inline-block
 }
 
-.annoyingLetters{
-    display: ;
-}
-
-.letterMargin{
+.bigBox{
+    height: 250px;
+    width: 750px;
     margin-top: 400px;
-}
-
-.moveLetters{
-    margin-top: 380px;
 }
 
 #player1{
@@ -137,4 +139,8 @@
     border: solid 3px black;
     text-align: center;
     position: relative;
+}
+
+.color1{
+    background-color: blue;
 }
