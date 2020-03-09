@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+.numberBox{
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    border-radius: 15px;
+    line-height: 100px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.color1{
+    background-color: orange;
+    font-family: "Kranky";
+}
+
+.color2{
+    background-color: indigo;
+}
+
+.color3{
+    background-color: darkred;
+}
+
+#display{
+    height: 50px;
+    width: 1220px;
+    border-radius: 15px;
+    line-height: 50px;
+    font-size: 50px;
+    border: solid 1px black;
+    text-align: right;
+    font-family: "Kranky";
+    color: white;
+}
+
+.font{
+    font-family: "Kranky";
+    color: white;
+}
+
+#bigBox{
+    height: 600px;
+    width: 600px;
+    margin-top: 10px;
+    border: dotted 1px green;
+}
+
+.one{
+
+}
+
+.two{
+
+}
+
+.three{
+
+}
+
+.four{
+
+}
+
+.five{
+
+}
+
+#six{
+
+}
