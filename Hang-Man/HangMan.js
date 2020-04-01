@@ -11,11 +11,13 @@ $('.letterBox').click(
 $('#player1').click(
     function() {
         player = 1;
+        console.log(player);
     }
 );
 
 $('#player2').click(
     function() {
         player = 2;
+        console.log(player);
     }
 );
